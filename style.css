@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Andada+Pro:ital@1&family=Anton&family=Birthstone&family=Ephesis&family=Italianno&family=Ubuntu:ital,wght@1,300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.flex-all-center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header{
+    height: 70px;
+    background-color: #2874f0;
+    font-family: 'Andada Pro', serif;
+    font-family: 'Ephesis', cursive;
+    font-family: 'Ubuntu', sans-serif;   
+}
+
+nav{
+    display: flex;
+    align-items: center;
+}
+
+.logo img{
+    height: 20px;
+    padding: 5px 35px 0 45px;
+}
+
+.logo p{
+    padding: 0px 35px 0 13px;
+    color: yellow; 
+    font-weight: bold; 
+}
+
+nav ul{
+    display: flex;
+    height: 70px;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+nav ul li{
+    padding: 0 20px;
+    list-style: none;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 25px; 
+}
+
+nav ul li a:hover{
+    color: rgb(196, 196, 196);
+    font-weight: bolder;
+}
+
+.search{
+    margin: 0 0 0 100px;
+}
+.search input{
+    width: 500px;
+    height: 35px;
+    border: none;
+    border-radius: 5px;
+    padding: 0 10px;
+}
+
+.search-button{
+    margin: 0 0 0 10px;
+}
+
+.search-button input{
+    height: 35px;
+    width: 70px;
+    border-radius: 5px;
+    background-color: #f7fff7;
+    font-weight: bold;
+    border: 2px solid #8a8484;
+    cursor: pointer;
+    font-family: 'Andada Pro', serif;
+    font-family: 'Ephesis', cursive;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.search-button input:hover{
+    background-color: rgb(247, 207, 207);
+    border: none;
+}
+
+.btn{
+margin: 0 10px 0 120px;
+}
+
+.btn input{
+    width: 80px;
+    height: 40px;
+    border: none;
+    border-radius: 10px;
+    background-color: #1b761b;
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.btn input:hover{
+    background-color: white;
+    color:#1b761b;
+}
+
+.pic{
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+}
+
+.pic img{
+    width: 80vw;
+    height: 50vh;    
+}
+
+h2{
+    margin: 15px 60px 0px 60px;
+}
+
+main{
+    background-color: #f1f3f6;
+}
+
+.card{
+    background-color: rgb(255 251 251);
+    margin: 5px 60px;
+    border-radius: 20px;
+    border: 2px solid #f6f5f5;
+}
+
+.items{
+    display: inline-flex;
+    flex-direction: column;
+    margin: 0px 0 20px 60px;
+}
+
+.name{
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+}
+
+.color{
+    color: green;
+}
+
+footer{
+    height: 7vh;
+    background-color: black;
+    color: white;
+    font-family: 'Ephesis', cursive;
+    font-family: 'Ubuntu', sans-serif;
+}
